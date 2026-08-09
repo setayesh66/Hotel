@@ -8,11 +8,24 @@ The project was developed collaboratively, with my primary responsibility being 
 
 ---
 
-# 📋 Table of Contents
+# Technical Highlights
+
+**Frontend:** React, TypeScript, Vite, React Router, Tailwind CSS, Framer Motion
+
+**Application Engineering:** REST API integration, authentication, authorization, protected routes, state management, dynamic data, forms, validation, error handling, CRUD workflows
+
+**Core Features:** Room reservations, restaurant reservations, user authentication, management/control panels, API-driven workflows
+
+**UI/UX:** Responsive design, reusable components, interaction design, animations, visual hierarchy, customer and management UX
+
+**Engineering:** Git/GitHub, collaborative development, debugging, API contracts, system design, Docker, Docker Compose
+
+---
+
+#  Table of Contents
 
 * [Project Overview](#-project-overview)
 * [Key Features](#-key-features)
-* [Technology Stack](#-technology-stack)
 * [Frontend Architecture](#-frontend-architecture)
 * [Authentication & Authorization](#-authentication--authorization)
 * [API Integration](#-api-integration)
@@ -21,14 +34,13 @@ The project was developed collaboratively, with my primary responsibility being 
 * [UI/UX & Interaction Design](#-uiux--interaction-design)
 * [Diagrams](#-diagrams)
 * [Testing & Debugging](#-testing--debugging)
-* [Git & Collaboration](#-git--collaboration)
 * [Running with Docker](#-running-with-docker)
 * [Backend](#-backend)
-* [Key Skills](#-key-skills)
+
 
 ---
 
-# 🚀 Project Overview
+#  Project Overview
 
 The application is divided into two major frontend experiences:
 
@@ -61,54 +73,27 @@ This required building both a **customer-oriented UX** and a **data-oriented man
 
 ---
 
-# ⚙️ Key Features
+#  Key Features
 
-* 🔐 Authentication & authorization
-* 🛡️ Protected routes and authenticated application areas
-* 🏨 Dynamic room and hotel data
-* 📅 Room reservation workflows
-* 🍽️ Restaurant reservation system
-* 🖥️ Management/control panels
-* 🔌 REST API integration
-* 📝 Form handling and validation
-* ⚠️ API and user-facing error handling
-* 🔄 Dynamic state and data updates
-* 📱 Responsive design
-* ✨ Framer Motion animations
-* 🧩 Reusable React components
-* 🐳 Dockerized development environment
+*  Authentication & authorization
+*  Protected routes and authenticated application areas
+*  Dynamic room and hotel data
+*  Room reservation workflows
+*  Restaurant reservation system
+*  Management/control panels
+*  REST API integration
+*  Form handling and validation
+*  API and user-facing error handling
+*  Dynamic state and data updates
+*  Responsive design
+*  Framer Motion animations
+*  Reusable React components
+*  Dockerized development environment
 
----
-
-# 🛠 Technology Stack
-
-### Frontend
-
-* **React**
-* **TypeScript**
-* **Vite**
-* **Tailwind CSS**
-* **Framer Motion**
-* **React Router**
-
-### Backend
-
-* **ASP.NET Core 9**
-* **Entity Framework Core**
-* **PostgreSQL**
-* **JWT Authentication**
-* **REST API**
-
-### Development
-
-* Git / GitHub
-* Docker / Docker Compose
-* Swagger / OpenAPI
-* Visual Studio Code
 
 ---
 
-# 🏗️ Frontend Architecture
+#  Frontend Architecture
 
 The frontend follows a component-based architecture with separation between pages, reusable components, application state, routing, and API-driven functionality.
 
@@ -158,7 +143,7 @@ UI Update
 
 ---
 
-# 🔐 Authentication & Authorization
+#  Authentication & Authorization
 
 Authentication was implemented across both the backend and frontend.
 
@@ -194,7 +179,7 @@ Authenticated Application
 
 ---
 
-# 🔌 API Integration
+#  API Integration
 
 The React application communicates with the backend exclusively through REST APIs.
 
@@ -212,7 +197,7 @@ This required maintaining consistency between the TypeScript frontend models, AP
 
 ---
 
-# 📅 Reservation Workflows
+#  Reservation Workflows
 
 Reservation functionality is one of the main application workflows.
 
@@ -250,7 +235,7 @@ The frontend must correctly construct the request while handling unavailable res
 
 ---
 
-# 🖥️ Control Panels
+#  Control Panels
 
 A significant part of the project is dedicated to authenticated management interfaces rather than the public hotel website.
 
@@ -277,7 +262,7 @@ This required designing a different UX for operational users:
 
 ---
 
-# 🎨 UI/UX & Interaction Design
+#  UI/UX & Interaction Design
 
 UI/UX was an important part of the project while remaining integrated with the application's functionality.
 
@@ -303,7 +288,7 @@ The management interfaces prioritize:
 
 ---
 
-# 📐 Diagrams
+#  Diagrams
 
 The project documentation includes diagrams for the most important architectural and functional workflows.
 
@@ -336,7 +321,7 @@ The project documentation includes diagrams for the most important architectural
 
 ---
 
-# 🧪 Testing & Debugging
+#  Testing & Debugging
 
 Development involved debugging across the complete frontend/backend request lifecycle.
 
@@ -354,23 +339,8 @@ This was particularly useful when debugging reservation workflows where frontend
 
 ---
 
-# 🌿 Git & Collaboration
 
-Git and GitHub were used throughout collaborative development for:
-
-* Feature development
-* Branching
-* Merging
-* Conflict resolution
-* Version history
-* Collaborative work
-* Recovering previous states
-
-The project also provided practical experience working with complex Git histories and branch management.
-
----
-
-# 🐳 Running with Docker
+#  Running with Docker
 
 The entire project (backend, frontend, and database) is fully containerized and can be run with a single command using Docker Compose.
 
@@ -429,56 +399,20 @@ docker compose down
 docker compose down -v
 ```
 
+
 ---
 
-# 🔙 Backend
+
+#  Backend
 
 The backend is implemented using **ASP.NET Core 9, Entity Framework Core, PostgreSQL, JWT authentication, and a layered architecture**.
 
 It provides the REST APIs, business logic, database access, authentication infrastructure, reservation logic, and hotel-management services consumed by the frontend.
 
 For detailed backend architecture, database design, migrations, services, authentication, and backend testing:
-
-**[Backend Repository → YOUR_PARTNER_BACKEND_REPOSITORY_URL]**
+**Backend Repository:**
+https://github.com/KianSharifan/Hotel
 
 ---
 
-# 🎯 Key Skills Demonstrated
 
-### Frontend Engineering
-
-* React
-* TypeScript
-* Component architecture
-* React Router
-* State management
-* REST API integration
-* Authentication
-* Authorization
-* Protected routes
-* Forms & validation
-* Error handling
-* Dynamic data
-* Reservation workflows
-* CRUD interfaces
-
-### UI/UX Engineering
-
-* Responsive design
-* Luxury hospitality UI
-* Management dashboard UX
-* Interaction design
-* Animation
-* Visual hierarchy
-* Reusable design patterns
-
-### Software Engineering
-
-* REST architecture
-* API contracts
-* Debugging
-* Git/GitHub collaboration
-* Docker
-* System design
-* Sequence diagrams
-* Full-stack integration
