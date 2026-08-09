@@ -371,7 +371,7 @@ Clone the project on your own device
 with:
 
 ```bash
-git clone https://github.com/KianSharifan/Hotel
+git clone https://github.com/setayesh66/Hotel
 ```
 
 then:
