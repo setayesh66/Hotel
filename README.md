@@ -32,6 +32,7 @@ The project was developed collaboratively, with my primary responsibility being 
 * [Reservation Workflows](#-reservation-workflows)
 * [Control Panels](#-control-panels)
 * [UI/UX & Interaction Design](#-uiux--interaction-design)
+* * [Screenshots](#-screenshots)
 * [Diagrams](#-diagrams)
 * [Testing & Debugging](#-testing--debugging)
 * [Running with Docker](#-running-with-docker)
@@ -288,7 +289,17 @@ The management interfaces prioritize:
 
 ---
 
-#  Diagrams
+# Screenshots
+
+Selected screenshots of the Noire Palace frontend are available in [`frontend/docs/screenshots`](frontend/docs/screenshots).
+
+They showcase both sides of the application, including the customer-facing hotel experience, booking and restaurant workflows, authentication, and management/control interfaces.
+
+The screenshots are provided as visual references for the frontend architecture, functionality, and UI/UX described throughout this README.
+
+---
+
+# Diagrams
 
 The project documentation includes diagrams for the most important architectural and functional workflows.
 
