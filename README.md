@@ -291,7 +291,7 @@ The management interfaces prioritize:
 
 # Screenshots
 
-Selected screenshots of the Noire Palace frontend are available in [`frontend/docs/screenshots`](frontend/docs/screenshots).
+Selected screenshots of the Noire Palace frontend are available in [`Hotel/frontend/docs/screenshots`](Hotel/frontend/docs/screenshots).
 
 They showcase both sides of the application, including the customer-facing hotel experience, booking and restaurant workflows, authentication, and management/control interfaces.
 
