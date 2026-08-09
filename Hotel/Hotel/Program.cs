@@ -91,6 +91,4 @@ app.UseAuthentication();
 app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
-app.UseHttpsRedirection();
-
 app.Run();
