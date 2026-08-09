@@ -310,15 +310,15 @@ The project documentation includes diagrams for the most important architectural
 
 ### System Architecture
 
-![system-architecture](Hotel/Hotel/frontend/docs/diagrams/system-architecture.png)
+![system-architecture](Hotel/frontend/docs/diagrams/system-architecture.png)
 
 ### Room Reservation Flow
 
-![reservation-flow](Hotel/Hotel/frontend/docs/diagrams/reservation-flow.png)
+![reservation-flow](Hotel/frontend/docs/diagrams/reservation-flow.png)
 
 ### Whole Stack Architecture
 
-![whole-stack-architecture](Hotel/Hotel/frontend/docs/diagrams/whole-stack-architecture.png)
+![whole-stack-architecture](Hotel/frontend/docs/diagrams/whole-stack-architecture.png)
 
 
 ### Role & Access Control
